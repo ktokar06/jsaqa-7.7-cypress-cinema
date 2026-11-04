@@ -1,0 +1,32 @@
+{
+  "main": {
+    "headerTitle": ".page-header__title",
+    "days": ".page-nav__day",
+    "chosenDay": ".page-nav__day_chosen",
+    "movie": ".movie",
+    "movieTitle": ".movie__title",
+    "hallTitle": ".movie-seances__hall-title",
+    "hallBlock": ".movie-seances__hall",
+    "seance": ".movie-seances__time"
+  },
+  "admin": {
+    "emailInput": "input[name='email']",
+    "passwordInput": "input[name='password']",
+    "loginButton": ".login__button",
+    "stepTitle": ".conf-step__title",
+    "hallList": ".conf-step__list li"
+  },
+  "hall": {
+    "movieTitle": ".buying__info-title",
+    "hallTitle": ".buying__info-hall",
+    "freeChair": ".buying-scheme__row .buying-scheme__chair_standart:not(.buying-scheme__chair_taken)",
+    "selectedChair": ".buying-scheme__row .buying-scheme__chair_selected",
+    "acceptButton": ".acceptin-button"
+  },
+  "ticket": {
+    "title": ".ticket__check-title",
+    "movie": ".ticket__title",
+    "chairs": ".ticket__chairs",
+    "qr": ".ticket__info-qr"
+  }
+}

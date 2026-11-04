@@ -1,0 +1,19 @@
+{
+  "name": "jsaqa-cypress-cinema",
+  "version": "1.0.0",
+  "description": "Cypress UI-тесты кинотеатра «Идём в кино»",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:record": "cypress run --record"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.21.1"
+  }
+}

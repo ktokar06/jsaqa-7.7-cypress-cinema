@@ -1,0 +1,21 @@
+{
+  "valid": {
+    "email": "qamid@qamid.ru",
+    "password": "qamid",
+    "expected": "Управление залами"
+  },
+  "invalid": [
+    {
+      "name": "неверный пароль",
+      "email": "qamid@qamid.ru",
+      "password": "wrong_password",
+      "expected": "Ошибка авторизации!"
+    },
+    {
+      "name": "несуществующий пользователь",
+      "email": "unknown_user@qamid.ru",
+      "password": "qamid",
+      "expected": "Ошибка авторизации!"
+    }
+  ]
+}
